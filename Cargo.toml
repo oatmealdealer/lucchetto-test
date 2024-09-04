@@ -1,0 +1,8 @@
+[package]
+    name    = "lucchetto-test"
+    version = "0.1.0"
+    edition = "2021"
+
+[dependencies]
+    lucchetto = "0.4.0"
+    tokio     = { version = "1.39.3", features = ["rt-multi-thread"] }
